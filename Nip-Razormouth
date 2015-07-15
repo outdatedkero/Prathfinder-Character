@@ -1,0 +1,412 @@
+@@ -0,0 +1,411 @@
+{
+  "_id": "55a5d599c8b2e00300bccd96",
+  "user": {
+    "provider": "google",
+    "id": "112188269595914798300",
+    "displayName": "Zackeria Haddaway",
+    "name": {
+      "familyName": "Haddaway",
+      "givenName": "Zackeria"
+    },
+    "emails": [
+      {
+        "value": "zhaddaway081289@gmail.com"
+      }
+    ]
+  },
+  "spells": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "name": "Nip Razormouth",
+  "modified": "2015-07-15T07:34:53.502Z",
+  "alignment": "Chaotic Neutral",
+  "abilities": {
+    "str": "15",
+    "dex": "17",
+    "con": "14",
+    "int": "8",
+    "wis": "10",
+    "cha": "7"
+  },
+  "level": "Unchained Barbarian (Feral Gnasher) 3",
+  "size": "Small",
+  "gender": "Male",
+  "height": "2' 10\"",
+  "ac": {
+    "sizeModifier": "+1",
+    "items": [
+      {
+        "name": "Scale Arm Armor",
+        "properties": "Peacemeal Arm",
+        "armorCheckPenalty": "-2",
+        "weight": "3 lbs.",
+        "spellFailure": "25%",
+        "type": "Medium",
+        "bonus": "+1"
+      },
+      {
+        "properties": "Peacemeal Leg",
+        "name": "Hide Leg Armor",
+        "bonus": "+1",
+        "type": "Medium",
+        "armorCheckPenalty": "-2",
+        "spellFailure": "10%",
+        "weight": "4 lbs."
+      },
+      {
+        "properties": "Peacemeal Chest",
+        "name": "Hide Torso",
+        "bonus": "+2",
+        "type": "Medium",
+        "armorCheckPenalty": "-2",
+        "spellFailure": "20%",
+        "weight": "7 lbs."
+      }
+    ],
+    "itemTotals": {
+      "bonus": "+4",
+      "armorCheckPenalty": "-2",
+      "spellFailure": "25%",
+      "weight": "15 lbs."
+    }
+  },
+  "weight": "36 Lbs",
+  "race": "Goblin",
+  "hair": "None",
+  "eyes": "Yellow",
+  "age": "14",
+  "speed": {
+    "base": "40"
+  },
+  "cmd": {
+    "miscModifiers": "",
+    "total": "17",
+    "sizeModifier": "-1"
+  },
+  "cmb": {
+    "miscModifiers": "",
+    "sizeModifier": "-1",
+    "total": "+4"
+  },
+  "melee": [
+    {
+      "weapon": "Bite",
+      "attackBonus": "+4",
+      "damage": "1d6+3",
+      "critical": "x3",
+      "type": "B,P,S",
+      "notes": "Grapple"
+    },
+    {
+      "weapon": "Dogslicer",
+      "attackBonus": "+4",
+      "damage": "1d6+3",
+      "critical": "19-20x2",
+      "type": "S",
+      "notes": "Fragile"
+    },
+    {
+      "weapon": "Torch",
+      "attackBonus": "+4",
+      "damage": "1d3+3 +1 fire",
+      "critical": "x2",
+      "type": "B",
+      "notes": "FIRE!"
+    },
+    {
+      "weapon": "Horsechopper",
+      "attackBonus": "+4",
+      "damage": "1d8+3",
+      "critical": "x3",
+      "type": "P,S",
+      "notes": "Reach, Trip"
+    }
+  ],
+  "bab": "3",
+  "initiative": {
+    "miscModifier": "0",
+    "total": "+3"
+  },
+  "ranged": [
+    {
+      "weapon": "Throw Anything! (10')",
+      "attackBonus": "+6",
+      "ammunition": "(T)d2(S)d4(M)d6",
+      "damage": "See ammo",
+      "critical": "x2",
+      "type": "?"
+    },
+    {
+      "weapon": "Poisoned Sand Tube",
+      "attackBonus": "+6 (cone)",
+      "damage": "Dazzed",
+      "critical": "-",
+      "type": "*",
+      "ammunition": "DC:12 Fort"
+    }
+  ],
+  "traits": [
+    {
+      "type": "(Racial)",
+      "name": "Darkvision",
+      "school": "Transmutation",
+      "subschool": "",
+      "notes": "See in the dark up to 60 feet."
+    },
+    {
+      "type": "(Racial)",
+      "name": "Hard head, Big Teeth",
+      "notes": "Goblins with this trait gain a bite attack as a primary natural attack that deals 1d6 points of damage. This racial trait replaces skilled."
+    },
+    {
+      "type": "(Proficiency)",
+      "name": "Armor & Weapon",
+      "notes": "All Simple & Martial weapons.\nLight, medium armor & shields."
+    }
+  ],
+  "saves": {
+    "fort": {
+      "base": "3",
+      "total": "5"
+    },
+    "reflex": {
+      "base": "1",
+      "total": "4"
+    },
+    "will": {
+      "base": "1",
+      "total": "1"
+    }
+  },
+  "specialAbilities": [
+    {
+      "name": "Savage Bite",
+      "type": "Ex",
+      "notes": "A feral gnasher gains a savage bite attack. this primary natural attack deals 1d6 points of damage and deals x3 damage on a critical hit.\nReplaces Fast Movement."
+    },
+    {
+      "type": "Su",
+      "name": "Beast Totem, Lesser",
+      "notes": "While raging, the barbarian gains two claw attacks. These attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The claws deal 1d6 points of slashing damage plus the barbarian's strength modifier."
+    },
+    {
+      "name": "Lockjaw",
+      "type": "Ex",
+      "notes": "A feral gnasher gains the grab ability with a bite attack on creatures up to one size category larger than themselves.\nGrab: Grapple as a free action without attack of opportunity.  Can continue to grapple as normal or hold with bite alone. If the latter, it takes a -20 penalty on its CMB check to maintain the grapple but does not gain the grappled condition  (-4 dex, -2 on attacks, CMB checks, cant use 2 hands, concentration check on spells).\nThis grapple does not deal any extra damage, b...(line truncated)...
+      "school": "Transmutation",
+      "subschool": ""
+    },
+    {
+      "type": "Ex",
+      "name": "Uncanny Dodge",
+      "notes": "Can not be caught flat-footed, nor lose Dexterity bonus to AC if immobilized."
+    },
+    {
+      "name": "Rage (10 rounds/day)",
+      "school": "Enchantment",
+      "subschool": "Compulsion",
+      "type": "Ex",
+      "notes": "Rage for rounds equal to 4+Constitution. +2/lv.\n+2 Bonus to melee attacks & damage\n+2 Will saves.\n-2 AC\n+2 Temporary HP/level Lost first, disappear after\nFatigued (-2 Str/Dex, cant charge/run.) for 1 Min after ending rage."
+    }
+  ],
+  "feats": [
+    {
+      "name": "Throw Anything",
+      "type": "(Combat)",
+      "notes": "No longer suffer penalties for improvised ranged weapons. Receive a +1 circumstance bonus on attacks with splash weapons."
+    },
+    {
+      "name": "Catch Off-Guard",
+      "type": "(Combat)",
+      "notes": "You do not suffer penalties for using an improvised melee weapon. Unarmed opponents are flat-footed against any attacks you make with an improvised melee weapon."
+    },
+    {
+      "name": "Extra Rage Power - Beast Totem, Lesser",
+      "type": "General",
+      "notes": "One additional rage power."
+    },
+    {
+      "name": "LEVEL 3 FEAT PLACEHOLDER",
+      "type": "Mounted?"
+    }
+  ],
+  "languages": "Goblin, Common",
+  "skills": {
+    "swim": {
+      "classSkill": true,
+      "ranks": "1",
+      "total": "6"
+    },
+    "survival": {
+      "classSkill": true,
+      "ranks": "3",
+      "total": "6"
+    },
+    "ride": {
+      "classSkill": true,
+      "ranks": "1",
+      "total": "7"
+    },
+    "perception": {
+      "classSkill": true
+    },
+    "knowledgeNature": {
+      "classSkill": true
+    },
+    "intimidate": {
+      "classSkill": true,
+      "ranks": "1"
+    },
+    "handleAnimal": {
+      "classSkill": true
+    },
+    "craft1": {
+      "classSkill": true
+    },
+    "craft2": {
+      "classSkill": false
+    },
+    "craft3": {
+      "classSkill": false
+    },
+    "climb": {
+      "classSkill": true,
+      "ranks": "1",
+      "total": "6"
+    },
+    "acrobatics": {
+      "classSkill": true,
+      "ranks": "1",
+      "total": "7"
+    },
+    "linguistics": {
+      "ranks": "1"
+    }
+  },
+  "gear": [
+    {
+      "type": "",
+      "name": "Backpack",
+      "notes": "A small stolen leather knapsack with one large pocket with a buckled strap.\nHolding about 1 cubic foot of material.",
+      "quantity": "1",
+      "weight": "1",
+      "location": ""
+    },
+    {
+      "type": "Blanket",
+      "name": "Tattered",
+      "notes": "This worn, tattered blanket made of small scraps of various furs stitched together has straps so it can be rolled up and tied. Blankets are often used in conjunction with bedrolls to provide additional\nwarmth or a ground cushion.",
+      "weight": "2",
+      "location": "Pack"
+    },
+    {
+      "type": "",
+      "name": "Flint & Steel",
+      "notes": "Lighting a torch with Flint & Steel is a full-round action.\nLighting any other fire takes at least that long.",
+      "location": "Pack"
+    },
+    {
+      "type": "Iron Pot",
+      "name": "Rusty",
+      "location": "Pack",
+      "notes": "A small 6-Inch Diameter iron pot. While spotted with pockets of rust, it is sturdy and has feet, a lid, and a rounded warped rounded handle.\nIt can hold enough stew to feed one meal.",
+      "weight": "1"
+    },
+    {
+      "type": "",
+      "name": "Waterskin",
+      "location": "Belt"
+    },
+    {
+      "type": "Candle",
+      "name": "Animal Fat",
+      "notes": "A greasy candle that provides illumination in a small 5-foot area.\nBurns for 1 Hour.",
+      "quantity": "3",
+      "weight": "-",
+      "location": "Pack"
+    },
+    {
+      "name": "Grappling Hook",
+      "type": "",
+      "location": "Pack",
+      "weight": "2",
+      "notes": "Throwing a grappling hook requires a racked attack roll, treating the hook as a thrown weapon with a range of 10 feet.\nPlaces with ample places to catch have an AC of 5."
+    },
+    {
+      "name": "Hammer",
+      "location": "Pack",
+      "quantity": "1",
+      "weight": "1",
+      "notes": "If used in combat, one handed improvised weapon dealing 1d3 bludgeoning damage."
+    },
+    {
+      "name": "Scrap",
+      "type": "Iron Spike",
+      "location": "Pack",
+      "quantity": "3",
+      "weight": "2"
+    },
+    {
+      "type": "20ft",
+      "name": "Hemp Rope",
+      "location": "Pack",
+      "quantity": "",
+      "weight": "4",
+      "notes": "A length of frayed hemp rope.\nHP 2\nBurst DC 23 Str Check"
+    },
+    {
+      "type": "",
+      "name": "Signal Horn",
+      "location": "Belt",
+      "weight": "1",
+      "notes": "A small hollowed animal horn. Sounding a horn requires a DC 10 Preform (Wind Instruments) check to convey common signals.\nIt can be clearly heard for a half mile."
+    },
+    {
+      "name": "Rough Twine",
+      "location": "Pack",
+      "quantity": "",
+      "type": "50ft Spool",
+      "weight": ".5",
+      "notes": "A spool or roughspun hemp twine. Useful for rigging traps and alarms.\nHardness 0\nHP 1\nBreak DC 14"
+    },
+    {
+      "name": "Makeshift",
+      "type": "Torch",
+      "location": "Bundle",
+      "quantity": "6",
+      "weight": "3",
+      "notes": "Makeshift torches. Burning for 30 Minutes shedding light in a 20-foot Radius, and giving dim illumination an additional 20 feet beyond that.\nIf used in combat, it is treated as a one-handed improvised weapon dealing 1d4 bludgeoning damage plus 1 point of fire if lit."
+    },
+    {
+      "type": "",
+      "name": "Copper Tripwire",
+      "location": "Pack",
+      "quantity": "1",
+      "weight": ".5",
+      "notes": "A simple trap made from a 6-foot length of strong & flexible copper wire (requires 2 anchor points)\n\nType mechanical; Perception DC 15; Disable Device DC 10\nEFFECTS\nTrigger location; Reset automatic\nEffect trip combat maneuver +5 (+10 if the target is running)"
+    },
+    {
+      "name": "Jar of Leeches",
+      "location": "Pack",
+      "quantity": "1",
+      "weight": "2",
+      "notes": "A small jar containing 2 leeches.\nGrats a +2 circumstance bonus on Heal checks to treat poison.\nSurvives for 6 months between feedings."
+    },
+    {
+      "type": "",
+      "name": "Scent Cloak",
+      "weight": "1",
+      "notes": "A worn grey cloak, soaked in ground spices, musk and alchemical mixtures to override the wearers natural scent."
+    }
+  ]
+}
